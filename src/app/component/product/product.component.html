@@ -41,7 +41,7 @@
           {{ item.description }}
         </p>
         <p>price: {{ item.price }}</p>
-        <button class="btn btn-primary">
+        <button class="btn btn-primary" (click)="addToCart(item)">
           Add to cart
         </button>
       </div>
